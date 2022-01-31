@@ -10,13 +10,13 @@ export const FooterControls = ({onSelectNext, onSelectPrev}) => {
         variant="outlined"
         onClick={onSelectPrev}
       >
-        &#x21B6; Previous
+        &#129044; Previous
       </Button>
       <Button
         variant="contained"
         onClick={onSelectNext}
       >
-        Next &#x21B7;
+        Next &#129046;
       </Button>
     </ButtonGroup>
   );

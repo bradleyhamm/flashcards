@@ -16,7 +16,7 @@ function Decks() {
           return (
             <Card
               key={id}
-              style={{backgroundColor: "#fafafa", width: "100%"}}
+              style={{width: "100%"}}
             >
               <CardContent>
                 <Typography variant="h5" gutterBottom>
